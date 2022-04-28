@@ -1,9 +1,12 @@
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-rows:  400px 400px 400px;
     gap: 5px;
-    width: 100%;
+}
+
+.content h2 {
+    margin-top: 50%;
 }
 
 .pic1hover {
@@ -13,10 +16,6 @@ section {
 
 .pic1hover:hover .content {
     bottom: 0%;
-}
-
-.content h2 {
-    margin-top: 50%;
 }
 
 .pic2hover {
@@ -87,6 +86,10 @@ section {
     position: relative;
 }
 
+.pic9hover:hover .content {
+    bottom: 0%;
+}
+
 .content {
     background: rgba( 0, 0, 0, 0.7 );
     bottom: -100%;
@@ -97,10 +100,6 @@ section {
     position: absolute;
     transition: bottom 0.7s ease;
     width: 94.5%;
-}
-
-.pic9hover:hover .content {
-    bottom: 0%;
 }
 
 
