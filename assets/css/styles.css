@@ -1,0 +1,108 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+}
+
+.pic1hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic1hover:hover .content {
+    bottom: 0%;
+}
+
+.content h2 {
+    margin-top: 50%;
+}
+
+.pic2hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic2hover:hover .content {
+    bottom: 0%;
+}
+
+.pic3hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic3hover:hover .content {
+    bottom: 0%;
+}
+
+.pic4hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic4hover:hover .content {
+    bottom: 0%;
+}
+
+.pic5hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic5hover:hover .content {
+    bottom: 0%;
+}
+
+.pic6hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic6hover:hover .content {
+    bottom: 0%;
+}
+
+.pic7hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic7hover:hover .content {
+    bottom: 0%;
+}
+
+.pic8hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.pic8hover:hover .content {
+    bottom: 0%;
+}
+
+.pic9hover {
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    background: rgba( 0, 0, 0, 0.7 );
+    bottom: -100%;
+    color: #fff;
+    height: 100%;
+    left: 0%;
+    text-align: center;
+    position: absolute;
+    transition: bottom 0.7s ease;
+    width: 94.5%;
+}
+
+.pic9hover:hover .content {
+    bottom: 0%;
+}
+
+
+
+
